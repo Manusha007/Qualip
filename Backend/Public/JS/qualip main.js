@@ -34,7 +34,14 @@ $(function() {
 
     while (true) {
         if (element.is('li')) {
-            element = element.parent().addClass('in').parent();
+            
+        } else {
+            break;
+        }
+    }
+	while (false) {
+        if (element.is('li')) {
+            element = element.parent().deleteClass('in').parent();
         } else {
             break;
         }
