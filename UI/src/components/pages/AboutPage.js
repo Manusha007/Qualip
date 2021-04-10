@@ -1,18 +1,21 @@
 import React from 'react';
 import '../../App.css';
-
-import Section2 from '../Sections/Section2';
 import Footer from '../Footer/Footer';
-import Navbar from '../Navbar/Navbar';
 
-function Home() {
+import Navbar from '../Navbar/Navbar';
+import About from '../Sections/About';
+
+import AbPage from '../Sections/AbPage';
+
+
+function AboutPage() {
   return (
     <>
       <Navbar />
-      <Section2/>
+      
+      <AbPage />
       <Footer />
     </>
   );
 }
-
-export default Home;
+export default AboutPage;

@@ -1,6 +1,5 @@
 import React from 'react';
-import './Footer.css';
-import { Button } from './Button';
+import '../Footer/Footer.css';
 import { Link } from 'react-router-dom';
 
 function Footer() {
@@ -18,21 +17,21 @@ function Footer() {
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
+            <Link to='/AboutPage' className='social-logo'>
               QUALIP
-              <i class='fab fa-typo3' />
+              
             </Link>
           </div>
-          <small class='website-rights'>QUALIP © 2021</small>
+          <medium class='website-rights'>QUALIP © 2021</medium>
           <div class='social-icons'>
-            <Link
+            <a href='https://www.facebook.com/QualipSoft/'
               class='social-icon-link facebook'
               to='/'
               target='_blank'
               aria-label='Facebook'
             >
               <i class='fab fa-facebook-f' />
-            </Link>
+           </a>
             <Link
               class='social-icon-link instagram'
               to='/'
@@ -49,22 +48,15 @@ function Footer() {
             >
               <i class='fab fa-youtube' />
             </Link>
-            <Link
+            <a href='https://twitter.com/SoftQualip'
               class='social-icon-link twitter'
               to='/'
               target='_blank'
               aria-label='Twitter'
             >
               <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
-            </Link>
+           </a>
+            
           </div>
         </div>
       </section>

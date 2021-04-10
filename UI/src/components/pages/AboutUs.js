@@ -1,13 +1,15 @@
 import React from 'react';
 import '../../App.css';
-import Footer from '../Footer';
+import Footer from '../Footer/Footer';
 
-import Api from '../Api';
-import About from '../About';
+import Api from '../Sections/Api';
+import About from '../Sections/About';
+import Navbar from '../Navbar/Navbar';
 
 function AboutUs() {
   return (
     <>
+      <Navbar />
       <About/>
       <Api />
       <Footer />

@@ -1,6 +1,6 @@
 import React from 'react';
-import './Api.css';
-import ApiItem from './ApiItem';
+import '../Sections/Api.css';
+import ApiItem from '../ApiItem';
 
 function Api() {
   return (
@@ -9,21 +9,27 @@ function Api() {
       
       
       <ul className='cards__items'>
-            <ApiItem
+
+   
+          <ApiItem
+              
               src='images/lasaru.jpeg'
               text='Lasaru Udawaththa'
           
             />
+    
+           
             <ApiItem
               src='images/manusha.jpeg'
               text='Manusha Pamoda'
             
             />
         
-          
             <ApiItem
+              
               src='images/deshan.jpg'
-              text='Deshan Vimukthi'
+              text='Deshan Vimukthi' 
+             
              
             />
             <ApiItem

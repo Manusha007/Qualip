@@ -1,6 +1,6 @@
 import React from 'react';
-import '../App.css';
-import './About.css';
+import '../../App.css';
+import '../Sections/About.css';
 
 function About() {
   return (
