@@ -20,6 +20,10 @@ class Registerin extends React.Component {
           </div>
           <div className="form">
             <div className="form-group">
+              <label htmlFor="username">User Name</label>
+              <input type="text" name="username" placeholder="username" />
+            </div>
+            <div className="form-group">
               <label htmlFor="email">Email</label>
               <input type="text" name="email" placeholder="email" />
             </div>
@@ -27,8 +31,12 @@ class Registerin extends React.Component {
               <label htmlFor="password">Password</label>
               <input type="text" name="password" placeholder="password" />
             </div>
-          </div>
-        </div>
+            <div className="form-group">
+              <label htmlFor="confirm password">Confirm Password </label>
+              <input type="text" name="confirm password" placeholder="confirm password" />
+            </div>
+            </div>
+         </div>
      
         
         <button
