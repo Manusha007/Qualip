@@ -18,9 +18,9 @@ function Section2() {
           buttonStyle='btn--outline'
           buttonSize='btn--large'
           onClick={console.log('hey')}>
-           
+          <Link to='/dashboard'>
             Get Started
-           
+           </Link>
         </Button>
 
         <Button          

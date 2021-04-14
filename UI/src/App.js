@@ -8,6 +8,7 @@ import AboutUs from './components/pages/AboutUs';
 import Log from './components/pages/Log';
 import Register from './components/pages/Register';
 import AboutPage from './components/pages/AboutPage';
+import Dashboard from './components/pages/Dashboard';
 
 class App extends React.Component{
   state={
@@ -31,6 +32,7 @@ class App extends React.Component{
           <Route path='/home' exact component={Home} />
           <Route path='/aboutus' component={AboutUs} />
           <Route path='/aboutpage' exact component={AboutPage} />
+          <Route path='/dashboard' exact component={Dashboard} />
           
         </Switch>
       </Router>
