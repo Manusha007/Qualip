@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../App.css';
-import Dash from '../Sections/Dash';
+import Dashitem from '../Sections/Dashitem';
 import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
 
@@ -8,7 +8,7 @@ function Dashboard() {
   return (
     <>
     <Navbar/>
-    <Dash/>
+    <Dashitem/>
       <Footer />
     </>
   );

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Sections/Api.css';
 import ApiItem from '../Dashitem';
-function Api() {
+function Dashitem() {
   return (
     <div className='cards'>
     
@@ -44,4 +44,4 @@ function Api() {
   );
 }
 
-export default Api;
+export default Dashitem;
