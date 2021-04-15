@@ -1,15 +1,11 @@
 import React from 'react';
-import Dashitem1 from '../Dashitem1';
+
 import '../Sections/Dash.css';
+
 function Dashitem() {
   return (
-    <div className='cards'>
-    
-      
-      
-    <ul className='cards__items'>
-
- 
+    <div className='cards1'>
+    <ul className='cards1__items'>
     <div class="row">
     <div class="col-lg-3 col-md-6">
         <div class="panel panel-green">
@@ -24,13 +20,13 @@ function Dashitem() {
                     </div>
                 </div>
             </div>
-            <a href="#">
+            
                 <div class="panel-footer">
-                    <span class="pull-left">View Details</span>
+                    <span class="pull-left">Per Day</span>
                     <span class="pull-right"><i class="fa  fa-hand-o-right"></i></span>
                     <div class="clearfix"></div>
                 </div>
-            </a>
+            
         </div>
     </div>
     <div class="col-lg-3 col-md-6">
@@ -46,13 +42,13 @@ function Dashitem() {
                     </div>
                 </div>
             </div>
-            <a href="#">
+           
                 <div class="panel-footer">
-                    <span class="pull-left">View Details</span>
+                    <span class="pull-left">Per Day</span>
                     <span class="pull-right"><i class="fa  fa-hand-o-right"></i></span>
                     <div class="clearfix"></div>
                 </div>
-            </a>
+            
         </div>
     </div>
     <div class="col-lg-3 col-md-6">
@@ -68,13 +64,13 @@ function Dashitem() {
                     </div>
                 </div>
             </div>
-            <a href="#">
+         
                 <div class="panel-footer">
-                    <span class="pull-left">View Details</span>
+                    <span class="pull-left">Per Day</span>
                     <span class="pull-right"><i class="fa  fa-hand-o-right"></i></span>
                     <div class="clearfix"></div>
                 </div>
-            </a>
+     
         </div>
     </div>
     <div class="col-lg-3 col-md-6">
@@ -90,18 +86,19 @@ function Dashitem() {
                     </div>
                 </div>
             </div>
-            <a href="#">
+           
                   <div class="panel-footer">
-                          <span class="pull-left">View Details</span>
+                          <span class="pull-left">Per Day</span>
                           <span class="pull-right"><i class="fa  fa-hand-o-right"></i></span>
                           <div class="clearfix"></div>
                       </div>
-                  </a>
+               
               </div>
           </div>
       </div>
 
 </ul>
+
 </div>
       
       

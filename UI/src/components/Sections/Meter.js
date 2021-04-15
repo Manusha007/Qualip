@@ -1,25 +1,42 @@
 import React from 'react';
 import '../Sections/Dash.css';
-import loginImg from "../../login.svg";
-
-import { Link } from 'react-router-dom';
 
 
-class Meter extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+function Meter() {
+  return (
+    <div className='cards2'>
+      <div class="mhtml mbody">
+        <div class="mody dial">
+          <div class="gauge">
+			<ul class="meter">
+				<li class="low"></li>
+				<li class="normal"></li>
+				<li class="high"></li>
+			</ul>
 
-  render() {
-    return (
-      <div class="gauge">
-      <canvas id="canvas-preview"></canvas>
-      <div id="minVal">0</div>
-      <div id="maxVal">300</div>
-      <div id="preview-textfield">0%</div>
-    </div>
+			<div class="dial">
+					<div class="inner">
+						<div class="arrow">
+						</div>
+					</div>			
+			</div>
+
+			<div class="value">
+				0%
+			</div>
+            
+
+		</div>
+        
+                </div>
+            </div>
+            <div class="h5">Condition Meter</div>
+            <div class="relative"></div>
+
+</div>
       
-    );
-  }
+      
+  );
 }
+
 export default Meter;

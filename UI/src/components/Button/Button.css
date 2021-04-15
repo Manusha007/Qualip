@@ -46,16 +46,23 @@ color: #FFFFFF;
 }
 
 .btn--large {
+ 
   padding: 12px 26px;
   font-size: 20px;
   font-family:cursive;
 
 }
 
-.btn--large:hover,
-.btn--medium:hover {
+.btn--large:hover
+ {
   transition: all 0.3s ease-out;
-  background: #fff;
+  background: rgb(209, 216, 218);
+  color: #242424;
+  transition: 250ms;
+}
+.btn--medium:hover{
+  transition: all 0.3s ease-out;
+  background:transparent;
   color: #242424;
   transition: 250ms;
 }
