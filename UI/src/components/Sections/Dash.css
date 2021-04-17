@@ -93,14 +93,14 @@
     border-bottom-color: #337ab7;
   }
   @media (min-width: 1200px) {
-    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+     .col-lg-3 {
       float: left;
     }
   }
 
   .cards1 {
     padding: 4rem;
-    background-image: url('/images/img-2.jpg');
+    background-image: url('/images/img-home.jpg');
     height: auto;
    
   }
@@ -130,7 +130,7 @@
   
   .cards2 {
     padding: 100px;
-    background-image: url('/images/img-2.jpg');
+  
     height: auto;
     margin-left: 400px;
    

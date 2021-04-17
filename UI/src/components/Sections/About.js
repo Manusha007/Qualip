@@ -9,6 +9,9 @@ function About() {
       <h1>Qualip</h1>
 
       <p>We are from IIT Level 5, Here Our SDGP Project QUALIP !!</p>
+      <br />
+      <p><h2>We are the Developers of this site</h2></p>
+ 
       </div>
       
      

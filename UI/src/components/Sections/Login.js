@@ -26,9 +26,7 @@ class Login extends React.Component{
         <div className="container" ref={this.props.containerRef}>
         <div className="header"><h1><b>Login</b></h1></div>
         <div className="content">
-          <div className="image">
-            <img src={loginImg} />
-          </div>
+         
           <div className="form">
             <div className="form-group">
               <label htmlFor="username">Email</label>
