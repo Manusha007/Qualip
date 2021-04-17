@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Sections/Api.css';
-import ApiItem from '../ApiItem';
+
 
 function Api() {
   return (

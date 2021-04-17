@@ -23,7 +23,13 @@ function Footer() {
             </Link>
           </div>
           <medium class='website-rights'>QUALIP © 2021</medium>
+          <div className="about__img1">
+          <a href="https://github.com/Manusha007/Qualip">
+          <img src="/images/image3.jpg" alt="qualip"  />
+          </a>
+          </div>
           <div class='social-icons'>
+            
             <a href='https://www.facebook.com/QualipSoft/'
               class='social-icon-link facebook'
               to='/'
@@ -55,8 +61,7 @@ function Footer() {
               aria-label='Twitter'
             >
               <i class='fab fa-twitter' />
-           </a>
-            
+           </a>            
           </div>
         </div>
       </section>

@@ -52,8 +52,8 @@
 
 .about__img img {
     padding: auto;
-    width:300px;
-    height:140px
+    width:250px;
+    height:100px
 }
 @media (max-width: 700px) {
   
