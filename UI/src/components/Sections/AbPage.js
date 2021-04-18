@@ -45,7 +45,7 @@ const AbPage = () => {
           
            <br />
           
-           © Copyright 2021. All rights reserved.<br/>
+           © Copyright 2021. All rights reserved,<br/>
            <span className='textColor'>Powered by the QUALIPSOFT.</span> 
 
          </p>

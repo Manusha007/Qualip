@@ -24,9 +24,16 @@ class Login extends React.Component{
     render(){
         return(
         <div className="container" ref={this.props.containerRef}>
-        <div className="header"><h1><b>Login</b></h1></div>
+        <div class="login-screen">
+        <div className="header"><h1><b>L o g i n </b></h1></div>
+        <br/>
         <div className="content">
-         
+          <p class="login-text">
+            <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-lock fa-stack-1x"></i>
+          </span>
+          </p>
           <div className="form">
             <div className="form-group">
               <label htmlFor="username">Email</label>
@@ -38,13 +45,14 @@ class Login extends React.Component{
             </div>
           </div>
         </div>
-     
+        
+       
         <button
           className='button1'
          
           onClick={console.log('hey')}>
              <Link to='/Home' >
-               <span>Login</span>
+               <span>Let me in.</span>
                </Link>
         </button>
 
@@ -55,8 +63,12 @@ class Login extends React.Component{
             <span>Register</span>
             </Link>
           </button>
+          <br />
+        <br />
+        <br />
+         <div><h3> © Copyright 2021. All rights reserved | <span className='textColor' >Powered by the QUALIPSOFT.</span></h3> </div>
         </div>
-        
+        </div>
      
         )
     }

@@ -13,6 +13,7 @@ class Registerin extends React.Component {
   render() {
     return (
       <div className="container" ref={this.props.containerRef}>
+         <div class="login-screen">
         <div className="header"><h1><b>Register</b></h1></div>
         <div className="content">
         
@@ -35,8 +36,7 @@ class Registerin extends React.Component {
             </div>
             </div>
          </div>
-     
-        
+    
         <button
           className='button1'
           onClick={console.log('hey')}>
@@ -44,9 +44,21 @@ class Registerin extends React.Component {
                <span>Register</span>
               </Link>
         </button>
-          
-         
+           
+        <button
+          className='button1'
+          onClick={console.log('hey')}>
+             <Link to='/' >
+               <span>Take me back.</span>
+              </Link>
+        </button>
+        <br />
+        <br />
+        <br />
+         <div><h3> © Copyright 2021. All rights reserved | <span className='textColor' >Powered by the QUALIPSOFT.</span></h3> </div>
+      
         </div>
+      </div>
       
     );
   }

@@ -32,6 +32,8 @@ body{
       display: flex;
       flex-direction: column;
       align-items: center;
+
+     
     }
 
 .form-group {
@@ -71,16 +73,17 @@ input {
 .button1 {
   display: inline-block;
   border-radius: 3px;
-  background-color: #5fd354;
+  background-color: #8fbfec;
   border: none;
-color: #FFFFFF;
+ color: #FFFFFF;
   text-align: center;
   font-size: 25px;
   padding: 10px;
   width: 200px;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 5px;
+  margin-left: 40px;
+
 }
 
 .button1 span {
@@ -108,3 +111,41 @@ color: #FFFFFF;
   right: 0;
 }
        
+.login-forgot-pass {
+  bottom: 10px;
+  color: rgb(15, 15, 15);
+  cursor: pointer;
+  display: block;
+  font-size: 28px;
+  left: 0;
+  opacity: 0.6;
+  padding: .5rem;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  
+  
+}
+
+.login-text {
+  background: rgb(235, 235, 230);
+
+  color: rgb(233, 227, 227);
+  font-size: 1.5rem;
+  margin: 0 auto;
+  max-width: 50%;
+  padding: .5rem;
+  text-align: center;
+  text-shadow: 1px -1px 0 rgb(233, 227, 227);
+ 
+}
+.fa-stack-1x {
+  color: black;
+}
+
+.login-screen {
+  background-color: #FFF;
+  padding: 100px;
+  border-radius: 10px
+  
+}
