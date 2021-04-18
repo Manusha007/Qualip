@@ -49,7 +49,7 @@ function Api() {
         <div class="column">
                 <div class="show">
                     <img src="images/inura.jpeg" alt="Inura"/>
-                    <div class="view"><a href ="https://www.linkedin.com/in/inura-dewage-7965131a6/" >
+                    <div class="view"><a href ="https://www.linkedin.com/in/inura-dewage-6635a01b9" >
                         <h2 class="name text">Inura Dewage</h2>
                     </a>
                     </div>
@@ -57,7 +57,7 @@ function Api() {
         </div>
         <div class="column">
                 <div class="show">
-                    <img src="images/lahiru.jpg" alt="Lahiru"/>
+                    <img src="images/lahiru.jpeg" alt="Lahiru"/>
                     <div class="view"><a href ="https://www.linkedin.com/in/lahiru-abhayakularathna-34797b1a5/" >
                         <h2 class="name text">Lahiru Abhayakularathna</h2>
                    

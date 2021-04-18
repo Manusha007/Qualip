@@ -3,7 +3,7 @@ import '../../App.css';
 import Footer from '../Footer/Footer';
 
 import Navbar from '../Navbar/Navbar';
-import About from '../Sections/About';
+import About1 from '../Sections/About1';
 
 import AbPage from '../Sections/AbPage';
 
@@ -12,7 +12,7 @@ function AboutPage() {
   return (
     <>
       <Navbar />
-      
+      <About1 />
       <AbPage />
       <Footer />
     </>

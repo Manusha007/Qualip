@@ -1,11 +1,12 @@
 .cards {
-    padding: 4rem;
+    padding: 1rem;
     background: #fff;
   }
 
   
   .cards__items {
     margin-bottom: 24px;
+   
   }
   
   .cards__item {
@@ -13,6 +14,7 @@
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
+    width: 200%;
   }
 
 
@@ -113,4 +115,7 @@ img{
   height: 300px;
   width: 200px;
 
+}
+.show{
+  width: 150px;
 }

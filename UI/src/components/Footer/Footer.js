@@ -65,6 +65,9 @@ function Footer() {
           </div>
         </div>
       </section>
+      <br />
+      <br />
+      <div><h3> © Copyright 2021. All rights reserved | <span className='textColor' >Powered by the QUALIPSOFT.</span></h3> </div>
     </div>
   );
 }

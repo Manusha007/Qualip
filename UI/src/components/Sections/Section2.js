@@ -8,7 +8,7 @@ function Section2() {
   return (
     <div className='container'>
       <video src='/videos/video-6.mp4' autoPlay loop muted />
-      <h1 >Welcome to <span className='colorText'>QUALIP!!!</span></h1>
+      <h1 >Welcome to <span className='colorText'>Q U A L I P !!!</span></h1>
       
       <div class="overlay"></div>
       <div className='hero-btns'>

@@ -128,15 +128,15 @@ input {
 }
 
 .login-text {
-  background: rgb(235, 235, 230);
+  background:  rgb(255, 255, 255);
 
-  color: rgb(233, 227, 227);
+  color:  rgb(255, 255, 255);
   font-size: 1.5rem;
   margin: 0 auto;
   max-width: 50%;
   padding: .5rem;
   text-align: center;
-  text-shadow: 1px -1px 0 rgb(233, 227, 227);
+  text-shadow: 1px -1px 0 rgb(255, 255, 255);
  
 }
 .fa-stack-1x {
