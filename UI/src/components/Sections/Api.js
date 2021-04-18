@@ -57,7 +57,7 @@ function Api() {
         </div>
         <div class="column">
                 <div class="show">
-                    <img src="images/lahiru.jpeg" alt="Lahiru"/>
+                    <img src="images/lahiru.jpg" alt="Lahiru"/>
                     <div class="view"><a href ="https://www.linkedin.com/in/lahiru-abhayakularathna-34797b1a5/" >
                         <h2 class="name text">Lahiru Abhayakularathna</h2>
                    
