@@ -70,6 +70,7 @@ function Api() {
                     <img src="images/lahiru.jpg" alt="Lahiru"/>
                     <div class="view"><a href ="https://www.linkedin.com/in/lahiru-abhayakularathna-34797b1a5/" >
                     <img src="images/lahiru.jpg" alt="Lahiru"/>
+                    
                     </a>
                     </div>
                 </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Sections/Login.css';
-import loginImg from "../../login.svg";
+
 
 import { Link } from 'react-router-dom';
 
@@ -18,10 +18,6 @@ class Registerin extends React.Component {
         <div className="content">
         
           <div className="form">
-            <div className="form-group">
-              <label htmlFor="username">User Name</label>
-              <input type="text" name="username" placeholder="username" />
-            </div>
             <div className="form-group">
               <label htmlFor="email">Email</label>
               <input type="text" name="email" placeholder="email" />
