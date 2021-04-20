@@ -1,8 +1,9 @@
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-const user = require('../Models/user');
+const User = require('../Models/user');
 
 exports.signup = (req, res, next) => {
+    console.log('BODY', req.body);
   bcrypt.hash(req.body.password, 10).then(
     (hash) => {
       const user = new User({
@@ -17,6 +18,7 @@ exports.signup = (req, res, next) => {
         }
       ).catch(
         (error) => {
+          console.log("USER ERROR");
           res.status(500).json({
             error: error
           });
