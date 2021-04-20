@@ -3,16 +3,12 @@
 const express =require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-const dotenv = require("dotenv");
 
-const qlipRoutes = require('./routes/qlip');
 const userRoutes = require('./routes/user');
-
-
 
 const app = express();
 
-mongoose.connect('mongodb+srv://qualip:KzVpMlMpN1GFbNRk@cluster0.3qwvv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://qualip:KzVpMlMpN1GFbNRk@cluster0.3qwvv.mongodb.net/qlipdb?retryWrites=true&w=majority')
   .then(() => {
     console.log('MongoDB Connected!');
   })
@@ -28,12 +24,8 @@ app.use((req, res, next) => {
     next();
   });
 
-
 app.use(bodyParser.json());
 
-app.use('/api/qlip',qlipRoutes);
-app.use('/api/auth',userRoutes);
-
-
+app.use('/app',userRoutes);
 
 module.exports = app;
