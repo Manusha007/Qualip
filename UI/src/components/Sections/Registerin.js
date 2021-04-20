@@ -44,10 +44,7 @@ class Registerin extends React.Component {
         <div className="content">
 
           <div className="form">
-            <div className="form-group">
-              <label htmlFor="username">User Name</label>
-              <input type="text" name="username" placeholder="username" onChange={this.handleChange} />
-            </div>
+            
             <div className="form-group">
               <label htmlFor="email">Email</label>
               <input type="text" name="email" placeholder="email" onChange={this.handleChange}/>
