@@ -40,7 +40,7 @@ class Registerin extends React.Component {
     return (
       <div className="container" ref={this.props.containerRef}>
          <div class="login-screen">
-        <div className="header"><h1><b>Register</b></h1></div>
+        <div className="header"><h1><b>Sign Up.</b></h1></div>
         <div className="content">
 
           <div className="form">
@@ -53,10 +53,7 @@ class Registerin extends React.Component {
               <label htmlFor="password">Password</label>
               <input type="password" name="password" placeholder="password" onChange={this.handleChange}/>
             </div>
-            <div className="form-group">
-              <label htmlFor="confirm password">Confirm Password </label>
-              <input type="password" name="confirmPassword" placeholder="confirm password" />
-            </div>
+           
             </div>
          </div>
 
@@ -64,7 +61,7 @@ class Registerin extends React.Component {
           className='button1'
           onClick={this.handleSubmit}>
              <Link to='/' >
-               <span>Register</span>
+               <span>Sign Up.</span>
               </Link>
         </button>
 

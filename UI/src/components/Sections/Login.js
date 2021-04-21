@@ -3,8 +3,10 @@ import '../Sections/Login.css';
 
 import {Link} from 'react-router-dom';
 import {loginReq} from "../../helpers/service";
+import { Alert} from '../Services/Alert';
 
 class Login extends React.Component{
+    
     state={
         email:'',
         password:''
@@ -31,11 +33,13 @@ class Login extends React.Component{
         }
     }
 
+    
     render(){
+        const { autoClose, keepAfterRouteChange } = this.state;
         return(
             <div className="container" ref={this.props.containerRef}>
                 <div class="login-screen">
-                    <div className="header"><h1><b>L o g i n </b></h1></div>
+                    <div className="header"><h1><b>Sign In. </b></h1></div>
                     <br/>
                     <div className="content">
                         <p class="login-text">
@@ -59,14 +63,15 @@ class Login extends React.Component{
 
                     <button
                         className='button1'
-                    onClick={async () => {await this.handleSubmit()} }>
+                    onClick={async () => {await this.handleSubmit(Alert.success('Success!!', { autoClose, keepAfterRouteChange }))} }>
+                   
                             <span>Let me in.</span>
                     </button>
 
                     <button
                         className='button1'>
                         <Link to='/register'>
-                            <span>Register</span>
+                            <span>Sign Up.</span>
                         </Link>
                     </button>
                     <br />
