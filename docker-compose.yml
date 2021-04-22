@@ -1,0 +1,19 @@
+version: "3.7"
+services:
+  frontend:
+    build: UI
+    ports:
+      - 80:80
+    container_name: qualip-ui
+    restart: always
+    environment:
+      NODE_ENV: production
+    depends_on:
+      - backend
+
+  backend:
+    container_name: qualip-backend
+    restart: always
+    build: Backend
+    ports:
+      - 8080:8080

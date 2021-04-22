@@ -1,12 +1,14 @@
 import { post} from '../helpers/apiHelper';
 
-export const loginReq = async (data) => {
+
+export const LoginReq = async (data) => {
     try {
         const result = await post(`login`, data);
         if (result) {
             if (result.data) {
-                window.location.replace('http://localhost:3001/home');
+                
                 return result.data;
+                
             }
             throw result.data;
         }

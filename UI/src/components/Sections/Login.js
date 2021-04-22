@@ -1,11 +1,15 @@
 import React from 'react';
+import {withRouter} from 'react-router-dom';
+
 import '../Sections/Login.css';
 
 import {Link} from 'react-router-dom';
-import {loginReq} from "../../helpers/service";
+import {LoginReq} from "../../helpers/service";
 import { Alert} from '../Services/Alert';
 
+
 class Login extends React.Component{
+    
     
     state={
         email:'',
@@ -23,9 +27,15 @@ class Login extends React.Component{
             "password": this.state.password
         }
         try {
-            const result = await loginReq(data);
+            const result = await LoginReq(data);
+            console.log(result);
+            
             if (result) {
+                console.log("loging function")
                 localStorage.setItem('Token', result.token);
+                this.props.history.push('/home')
+                
+
 
                }
         } catch (error) {
@@ -85,4 +95,4 @@ class Login extends React.Component{
     }
 }
 
-export default Login;
+export default withRouter(Login);
