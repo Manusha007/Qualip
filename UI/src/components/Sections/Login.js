@@ -132,11 +132,7 @@ class Login extends React.Component{
 
                     <button
                         className='button1'
-<<<<<<< HEAD
                         onClick={async () => {await this.handleSubmit()} } disabled={!this.state.formValid}>
-=======
-                    onClick={async () => {await this.handleSubmit(Alert.success('Success!!', { autoClose, keepAfterRouteChange }))} }>
->>>>>>> 78a862d2f231fccefebc33c42fdf9d766a411638
                    
                             <span>Let me in.</span>
                     </button>

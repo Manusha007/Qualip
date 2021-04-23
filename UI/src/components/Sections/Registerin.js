@@ -135,18 +135,12 @@ class Registerin extends React.Component {
             </div>
             <div className="form-group">
               <label htmlFor="password">Password</label>
-<<<<<<< HEAD
               <input type="password" name="password" placeholder="password" onChange={this.handleChange} value={this.state.password}
             onChange={this.handleUserInput}/>
             <div className={`form-group ${this.errorClass(this.state.formErrors.password)}`}></div>
 
             </div>
             
-=======
-              <input type="password" name="password" placeholder="password" onChange={this.handleChange}/>
-            </div>
-           
->>>>>>> 78a862d2f231fccefebc33c42fdf9d766a411638
             </div>
          </div>
 
@@ -154,7 +148,7 @@ class Registerin extends React.Component {
           className='button1'
           onClick={this.handleSubmit} disabled={!this.state.formValid}>
              <Link to='/' >
-               <span>Sign Up.</span>
+               <span>Register</span>
               </Link>
         </button>
 
