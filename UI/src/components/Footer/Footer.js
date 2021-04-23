@@ -46,14 +46,14 @@ function Footer() {
             >
               <i class='fab fa-instagram' />
             </Link>
-            <Link
+            <a href='https://www.youtube.com/channel/UCsB1hmOn31hI0uJsYU8zhlQ'
               class='social-icon-link youtube'
               to='/'
               target='_blank'
               aria-label='Youtube'
             >
               <i class='fab fa-youtube' />
-            </Link>
+          </a>
             <a href='https://twitter.com/SoftQualip'
               class='social-icon-link twitter'
               to='/'
