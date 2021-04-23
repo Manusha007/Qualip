@@ -18,3 +18,9 @@ Qualip is a quality assurance software for manufacturing process. It allows you 
 #### Clone the Project
 
 ```git clone https://github.com/Manusha007/Qualip.git```
+
+#### Run it
+
+> Use --build only when you run it for the first time or if you have made changes to the code
+
+```docker-compose up --build```
