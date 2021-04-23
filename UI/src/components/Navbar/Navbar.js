@@ -2,6 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../Navbar/Navbar.css';
 import { Button } from '../Button/Button';
+function logout(){
+  localStorage.clear();
+        window.location.href = '/';
+
+}
+
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
@@ -51,11 +57,11 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/aboutpage'
+                
                 className='nav-links'
-                onClick={closeMobileMenu}
+                onClick={logout}
               >
-                About 
+                Logout
               </Link>
             </li>
 
