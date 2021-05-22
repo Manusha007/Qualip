@@ -28,9 +28,9 @@ class App extends React.Component{
               <Route exact path='/register' render={() => <Register isLogin={this.handleLogin}/>}/>
 
               <Route path='/home'  component={Home} exact />
-              <Route path='/aboutus' component={AboutUs} exact />
-              <Route path='/aboutpage'  component={AboutPage} exact />
-              <Route path='/dashboard'  component={Dashboard} exact />
+              <Route path='/aboutus' component={AboutUs}  />
+              <Route path='/aboutpage'  component={AboutPage} />
+              <Route path='/dashboard'  component={Dashboard}  />
 
             </Switch>
           </Router>
