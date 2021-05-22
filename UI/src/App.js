@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
 import Home from './components/pages/Home';
-import { Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router,
+     Switch,
+    Route } from 'react-router-dom';
 import AboutUs from './components/pages/AboutUs';
 
 import Log from './components/pages/Log';
@@ -19,16 +21,16 @@ class App extends React.Component{
   render(){
     return (
         <>
-          <Router history={history}>
+          <Router>
             <Switch>
               !isLog ?
               <Route exact path='/' render={() => <Log isLogin={this.handleLogin}/>}/>
               <Route exact path='/register' render={() => <Register isLogin={this.handleLogin}/>}/>
 
-              <Route path='/home' exact component={Home} />
-              <Route path='/aboutus' component={AboutUs} />
-              <Route path='/aboutpage' exact component={AboutPage} />
-              <Route path='/dashboard' exact component={Dashboard} />
+              <Route path='/home'  component={Home} exact />
+              <Route path='/aboutus' component={AboutUs} exact />
+              <Route path='/aboutpage'  component={AboutPage} exact />
+              <Route path='/dashboard'  component={Dashboard} exact />
 
             </Switch>
           </Router>

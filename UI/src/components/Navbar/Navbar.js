@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../Navbar/Navbar.css';
 import { Button } from '../Button/Button';
+
 function logout(){
   localStorage.clear();
         window.location.href = '/';
