@@ -10,7 +10,7 @@ import Log from './components/pages/Log';
 import Register from './components/pages/Register';
 import AboutPage from './components/pages/AboutPage';
 import Dashboard from './components/pages/Dashboard';
-import history from './history';
+import NotFoundPage from './components/pages/NotFoundPage';
 
 class App extends React.Component{
   state={
@@ -31,7 +31,7 @@ class App extends React.Component{
               <Route path='/aboutus' component={AboutUs}  />
               <Route path='/aboutpage'  component={AboutPage} />
               <Route path='/dashboard'  component={Dashboard}  />
-
+              <Route component={NotFoundPage} />
             </Switch>
           </Router>
         </>
